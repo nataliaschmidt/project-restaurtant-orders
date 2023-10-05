@@ -61,3 +61,17 @@ class Ingredient:
 
     def __repr__(self) -> str:
         return f"Ingredient('{self.name}')"
+
+
+# INGREDIENT_1 = Ingredient("salmão")
+# INGREDIENT_2 = Ingredient("salmão")
+# INGREDIENT_3 = Ingredient("farinha")
+# print(INGREDIENT_1.__hash__())
+# print(INGREDIENT_2.__hash__())
+# print(INGREDIENT_3.__hash__())
+# INGREDIENT_4 = Ingredient("tomate")
+# print(INGREDIENT_4.restrictions)
+
+
+# print(Restriction.ANIMAL_DERIVED)
+# print(Restriction.ANIMAL_DERIVED in INGREDIENT_1.restrictions)
