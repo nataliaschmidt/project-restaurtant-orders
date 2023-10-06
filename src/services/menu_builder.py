@@ -40,7 +40,7 @@ class MenuBuilder:
         return menu
 
 
-menu = MenuBuilder()
-print(menu.menu_data.dishes)
-# print(menu.inventory.inventory)
-print(menu.get_main_menu())
+# menu = MenuBuilder()
+# print(menu.menu_data.dishes)
+# # print(menu.inventory.inventory)
+# print(menu.get_main_menu())
