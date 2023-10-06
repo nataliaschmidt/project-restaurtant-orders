@@ -72,6 +72,5 @@ class Ingredient:
 # INGREDIENT_4 = Ingredient("tomate")
 # print(INGREDIENT_4.restrictions)
 
-
 # print(Restriction.ANIMAL_DERIVED)
 # print(Restriction.ANIMAL_DERIVED in INGREDIENT_1.restrictions)
